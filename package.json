@@ -1,0 +1,25 @@
+{
+  "name": "react-app-test",
+  "version": "0.1.0",
+  "homepage": "https://ryosebach.github.io/github_pages_test",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git@github.com:ryosebach/github_pages_test.git"
+  },
+  "scripts": {
+	"deploy": "npm run build && gh-pages -d build/public",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
